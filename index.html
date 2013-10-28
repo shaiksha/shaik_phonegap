@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mahaswami</title>
+		<script src="jquery.js"></script>
+		<style>
+			h1 {text-align: center;}
+		   button { width: 100%;}
+		</style>
+	</head>
+	<body>
+		<h1>Teat App</h1></br>
+		<button id="red">Red</button></br>
+		<button id="green">Green</button></br>
+		<button id="yellow">Yellow</button></br>
+		<button id="blue">Blue</button></br>
+		<script>
+			$("#red").click(function(){
+				$("body").css('background-color', 'red');
+			});
+			$("#green").click(function(){
+				$("body").css('background-color', 'green');
+			});
+			$("#yellow").click(function(){
+				$("body").css('background-color', 'yellow');
+			});
+			$("#blue").click(function(){
+				$("body").css('background-color', 'blue');
+			});
+		</script>
+	</body>
+</html>
